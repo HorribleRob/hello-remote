@@ -1,5 +1,7 @@
+import sys
+
 def main() -> None:
-  print("Hello world!")
+  print("Hello {}!".format(sys.argv[1]))
 
 
 if __name__ == '__main__':
